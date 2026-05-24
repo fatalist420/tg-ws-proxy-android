@@ -22,7 +22,7 @@ android {
             // Chaquopy 17 ищет Python 3.11 на машине сборки.
             // Указываем путь явно — поменяй если Python установлен в другом месте.
             // Если Python 3.11 не установлен — скачай с python.org и измени путь.
-            buildPython "C:/Users/User/AppData/Local/Programs/Python/Python311/python.exe"
+            buildPython "C:\Users\UserX\AppData\Local\Programs\Python\Python311-32\python.exe"
             version "3.11"
 
             pip {
